@@ -243,7 +243,7 @@ header .hero-copy {
 
 footer {
   height: 100%;
-  background-image: url("/dist/img/desktop/image-footer.jpg");
+  background-image: url("./img/desktop/image-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
