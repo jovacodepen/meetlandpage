@@ -162,7 +162,7 @@ header .cell {
 
 header .hero-img {
   min-height: 200px;
-  background: url("/dist/img/tablet/image-hero.png");
+  background: url("/Code/dist/img/tablet/image-hero.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 107%;
@@ -218,6 +218,9 @@ header .hero-copy {
   .section-1-copy {
     padding: 0px 150px;
   }
+  .section-1 .grid-container {
+    margin-bottom: 100px;
+  }
 }
 
 .section-1 .pic-gallery {
@@ -243,11 +246,17 @@ header .hero-copy {
 
 footer {
   height: 100%;
-  background-image: url("./image-footer.jpg");
+  background-image: url("/dist/img/desktop/image-footer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: 180px;
+  }
 }
 
 footer .footer-img {
@@ -334,4 +343,3 @@ footer .button-2 {
     width: 50%;
   }
 }
-/*# sourceMappingURL=styles.css.map */
